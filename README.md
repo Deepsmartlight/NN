@@ -11,10 +11,10 @@ Training and evaluation scripts
 ` Cross validation experiment for metrics bottom edge`
 
 - one_step_split_train_test_validation
-` helper customized train/test/validation by patient`
+` Customized splitter train/test/validation by patient`
 
 - predict.py
-` predict and metrics on *best-by-valacc* model`
+` Evaluation of KPIs on *best-by-valacc* model`
 
 - train.py
 ` 15k low-nb-epoch train with checkpoints with and loss-optimization early-stopping`
