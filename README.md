@@ -1,20 +1,21 @@
-# dsl
+# DeepSmartLight open NN training repository
+
 NN for DSL-1/2 devices 
 Training and evaluation scripts
 
-# Contains
+---
 - arch_nn_hyper.py
-` looking for the best NN architecture within grid search and dropout levels`
+` NN architecture hyperparametric grid search and dropout levels`
 
 - make_experiment.sh
-` Cross validation experiment to estimate bottom edge of sensitivity and specificity`
+` Cross validation experiment for metrics bottom edge`
 
 - one_step_split_train_test_validation
-` tunable train/test/validation split`
+` helper customized train/test/validation by patient not by spectra`
 
 - predict.py
-` predict on the *best-by-valacc* model, sensitivity and specificity`
+` predict and metrics on *best-by-valacc* model`
 
 - train.py
-` low-epochs train with checkpoints and early-stopping`
+` 15k low-nb-epoch train with checkpoints with and loss-optimization early-stopping`
 
