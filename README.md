@@ -8,7 +8,7 @@ Training and evaluation scripts
 ` NN architecture hyperparametric grid search and dropout levels`
 
 - make_experiment.sh
-` Cross validation experiment for metrics bottom edge`
+` Cross-validation experiment proc for metrics bottom edge`
 
 - one_step_split_train_test_validation
 ` Customized splitter train/test/validation by patient`
